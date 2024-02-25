@@ -42,6 +42,9 @@ This project implements an artificial intelligence (AI) agent to play the classi
 
 # Requirements
 Python 3.x
+
 PyTorch
+
 NumPy
+
 Matplotlib
