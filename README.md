@@ -13,7 +13,7 @@ You can find all tutorials on my channel: [Playlist](https://www.youtube.com/pla
 This project implements an artificial intelligence (AI) agent to play the classic Snake game using reinforcement learning techniques. The AI agent learns to navigate the game environment, avoid obstacles, and consume food to maximize its score.
 
 # Features
-**Snake Game Environment**: The project includes a Snake game environment where the AI agent operates. The game provides a grid-based arena where the snake must move to consume food without colliding with itself or the walls.
+**Snake Game Environment**: The project includes a Snake game environment where the AI agent operates. The game provides a grid-based arena where the snake must move to consume food without colliding with itself or the walls.\n
 **Reinforcement Learning**: The AI agent employs Q-learning to learn optimal policies for playing the game. It utilizes a linear Q-network to approximate the Q-values, representing expected cumulative rewards for actions in different states.
 **Epsilon-Greedy Exploration**: The agent balances exploration and exploitation using an epsilon-greedy policy during action selection. This strategy enables the agent to explore new actions while exploiting known actions with higher Q-values.
 **Memory Replay**: Experience replay is utilized, storing past experiences in a memory buffer and randomly sampling mini-batches during training. This technique stabilizes and improves learning efficiency by reducing correlation between consecutive experiences.
